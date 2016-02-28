@@ -10,7 +10,7 @@
 
 ## Install ##
 
-1. Instal modules
+###### 1. Instal modules ######
 ```
 $ npm install --save-dev gulp
 $ npm install --save-dev gulp-livereload
@@ -18,7 +18,7 @@ $ npm install --save-dev gulp-node-inspector
 $ npm install --save-dev gulp-develop-server
 ```
 
-2. Add gulp command to npm scripts to package.json
+###### 2. Add gulp command to npm scripts to package.json ######
 ```json
 {
 	"scripts": {
@@ -27,7 +27,7 @@ $ npm install --save-dev gulp-develop-server
 }
 ```
 
-3. Add gulpfile.js to project
+###### 3. Add gulpfile.js to project ######
 ```js
 var gulp = require('gulp'),
 	server = require('gulp-develop-server'),
@@ -60,10 +60,11 @@ gulp.task('debug', tasks.nodeInspector);
 ```
 
 ## Use ##
-1. Run server
+###### 1. Run server ######
 ```
 $ npm start
 ```
 
-2. Open node-inspector in browser <http://127.0.0.1:8080/?ws=127.0.0.1:8080&port=5858>
+###### 2. Open node-inspector in browser ######
+<http://127.0.0.1:8080/?ws=127.0.0.1:8080&port=5858>
 or <http://127.0.0.1:8080/?port=5858>
