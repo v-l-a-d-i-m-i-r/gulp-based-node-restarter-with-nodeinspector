@@ -1,6 +1,6 @@
-# gulp-based-node-restarter-with-nodeinspector
+# gulp-based-node-restarter-with-nodeinspector #
 
-## This restarter does the following work:
+## This restarter does the following work: ##
 
 1. Run Node.js server in `debug` mode;
 2. Run `node-inspector` for server;
@@ -8,7 +8,7 @@
 4. Kill processes after exiting;
 
 
-## Install
+## Install ##
 
 1. Instal modules
 ```
@@ -59,13 +59,11 @@ gulp.task('server', ['server:watch'], tasks.server);
 gulp.task('debug', tasks.nodeInspector);
 ```
 
-## Use
+## Use ##
 1. Run server
 ```
 $ npm start
 ```
 
-2. Open node-inspector in browser
-###### <http://127.0.0.1:8080/?ws=127.0.0.1:8080&port=5858>
-or
-###### <http://127.0.0.1:8080/?port=5858>
+2. Open node-inspector in browser <http://127.0.0.1:8080/?ws=127.0.0.1:8080&port=5858>
+or <http://127.0.0.1:8080/?port=5858>
