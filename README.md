@@ -68,3 +68,10 @@ $ npm start
 ###### 2. Open node-inspector in browser ######
 <http://127.0.0.1:8080/?ws=127.0.0.1:8080&port=5858>
 or <http://127.0.0.1:8080/?port=5858>
+
+## Read more ##
+
+* [gulp](<https://www.npmjs.com/package/gulp>)
+* [gulp-livereload](<https://www.npmjs.com/package/gulp-livereload>)
+* [gulp-node-inspector](<https://www.npmjs.com/package/gulp-node-inspector>)
+* [gulp-develop-server](<https://www.npmjs.com/package/gulp-develop-server>)
